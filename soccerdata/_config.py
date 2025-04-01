@@ -187,7 +187,20 @@ LEAGUE_DICT = {
         "WhoScored": "International - FIFA Women's World Cup",
         "season_code": "single-year",
     },
+    "NED-Eredivisie": {
+        "ClubElo": "NED_1",
+        "MatchHistory": "N1",
+        "SoFIFA": "[Netherlands] Eredivisie",
+        "FBref": "Eredivisie",
+        "ESPN": "ned.1",
+        "FiveThirtyEight": "eredivisie",
+        "WhoScored": "Netherlands - Eredivisie",
+        "Sofascore": "Eredivisie",
+        "season_start": "Aug",
+        "season_end": "May"
+   },
 }
+
 _f_custom_league_dict = CONFIG_DIR / "league_dict.json"
 if _f_custom_league_dict.is_file():
     with _f_custom_league_dict.open(encoding="utf8") as json_file:
